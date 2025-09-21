@@ -36,7 +36,7 @@ export default function ContactMe() {
                 <div>
                   <h3 className="font-semibold text-darkDesert">Phone</h3>
                   <a href={PHONE_URL} className="text-goldDesert hover:text-green-600 transition-colors">
-                    (123) 456-7890
+                    (463) 320-2025
                   </a>
                 </div>
               </div>
