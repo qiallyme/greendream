@@ -18,7 +18,7 @@ function App() {
     <>
       <Analytics />
       <Router>
-        <div className="bg-lightDesert">
+        <div className="bg-dark-950">
           <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />

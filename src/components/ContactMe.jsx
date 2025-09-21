@@ -57,10 +57,10 @@ export default function ContactMe() {
                 <div className="bg-green-100 p-3 rounded-full mr-4">
                   <FaMapMarkerAlt className="w-6 h-6 text-green-600" />
                 </div>
-                <div>
-                  <h3 className="font-semibold text-darkDesert">Service Area</h3>
-                  <p className="text-darkDesert">Greater Area & Surrounding Communities</p>
-                </div>
+                       <div>
+                         <h3 className="font-semibold text-darkDesert">Service Area</h3>
+                         <p className="text-darkDesert">Indianapolis, Indiana & Surrounding Areas</p>
+                       </div>
               </div>
 
               <div className="flex items-center">

@@ -25,11 +25,11 @@ export default function Footer() {
           
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Info</h3>
-            <div className="space-y-2 text-green-100">
-              <p>📞 Call for Free Estimate</p>
-              <p>📧 luis.palacios12@icloud.com</p>
-              <p>📍 Serving the Greater Area</p>
-            </div>
+                   <div className="space-y-2 text-green-100">
+                     <p>📞 Call for Free Estimate</p>
+                     <p>📧 luis.palacios12@icloud.com</p>
+                     <p>📍 Serving Indianapolis, Indiana</p>
+                   </div>
           </div>
           
           <div>

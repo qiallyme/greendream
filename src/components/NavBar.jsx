@@ -26,13 +26,13 @@ export default function NavBar() {
 
   return (
     <header>
-      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-darkDesert fixed top-0 w-full z-50">
+      <nav className="bg-glass backdrop-blur-xl border-b border-white/20 px-4 lg:px-6 py-3 fixed top-0 w-full z-50 shadow-2xl">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-          <Link to="/" className="flex items-center">
-            <div className="mr-3 h-6 sm:h-9 w-6 sm:w-9 bg-green-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm sm:text-lg">G</span>
+          <Link to="/" className="flex items-center group">
+            <div className="mr-3 h-8 sm:h-10 w-8 sm:w-10 bg-gradient-to-br from-primary-500 to-primary-600 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-primary-500/25 transition-all duration-300 group-hover:scale-110">
+              <span className="text-white font-black text-sm sm:text-lg">G</span>
             </div>
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center text-xl font-bold whitespace-nowrap bg-gradient-to-r from-primary-200 to-accent-200 bg-clip-text text-transparent group-hover:from-primary-100 group-hover:to-accent-100 transition-all duration-300">
               GreenDream Landscaping
             </span>
           </Link>
@@ -77,19 +77,43 @@ export default function NavBar() {
             } justify-between items-center w-full lg:flex lg:w-auto lg:order-1`}
             id="mobile-menu-2"
           >
-            <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-              <NavLink to="/" onClick={toggleOpen}>
-                Home
-              </NavLink>
-              <NavLink to="/about" onClick={toggleOpen}>
-                About
-              </NavLink>
-              <NavLink to="/services" onClick={toggleOpen}>
-                Services
-              </NavLink>
-              <NavLink to="/contact" onClick={toggleOpen}>
-                Contact
-              </NavLink>
+            <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-2 lg:mt-0">
+              <li>
+                <Link
+                  to="/"
+                  onClick={toggleOpen}
+                  className="block py-2 px-4 text-primary-200 hover:text-primary-100 hover:bg-white/10 rounded-xl transition-all duration-300 hover:scale-105"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/about"
+                  onClick={toggleOpen}
+                  className="block py-2 px-4 text-primary-200 hover:text-primary-100 hover:bg-white/10 rounded-xl transition-all duration-300 hover:scale-105"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  onClick={toggleOpen}
+                  className="block py-2 px-4 text-primary-200 hover:text-primary-100 hover:bg-white/10 rounded-xl transition-all duration-300 hover:scale-105"
+                >
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/contact"
+                  onClick={toggleOpen}
+                  className="block py-2 px-4 text-primary-200 hover:text-primary-100 hover:bg-white/10 rounded-xl transition-all duration-300 hover:scale-105"
+                >
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

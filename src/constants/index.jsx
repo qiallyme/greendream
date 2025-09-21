@@ -1,9 +1,9 @@
 export const PHONE_URL = "tel:+14633202025";
 export const EMAIL_URL = "mailto:luis.palacios12@icloud.com";
-export const FACEBOOK_URL = "https://www.facebook.com/greendreamlandscaping";
-export const INSTAGRAM_URL = "https://www.instagram.com/greendreamlandscaping";
+export const FACEBOOK_URL = "https://www.facebook.com/greendreamindy";
+export const INSTAGRAM_URL = "https://www.instagram.com/greendreamindy";
 export const CURRENT_YEAR = new Date().getFullYear().toString();
 export const BUSINESS_NAME = "GreenDream Landscaping";
 export const OWNER_NAME = "Luis Palacios de la Rosa";
 export const BUSINESS_TAGLINE = "Transforming Your Outdoor Space";
-export const SERVICE_AREA = "Serving the Greater Area";
+export const SERVICE_AREA = "Serving Indianapolis, Indiana & Surrounding Areas";
